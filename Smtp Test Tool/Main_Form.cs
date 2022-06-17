@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Mail;
 using System.Net;
+using System.Diagnostics;
 
 namespace Smtp_Test_Tool
 {
@@ -64,6 +65,11 @@ namespace Smtp_Test_Tool
             {
                 MessageBox.Show(ex.Message, "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(@"https://github.com/0x100001/Smtp-Test-Tool");
         }
     }
 }
