@@ -5,4 +5,4 @@
  Simply fill in your mail server configuration and test if smtp it is working.
  
 # Screenshot
-![Alt text](/Screenshot.PNG?raw=true "Optional Title")
+![You should see a screenshot here](/Screenshot.PNG?raw=true "Smtp-Test-Tool")
